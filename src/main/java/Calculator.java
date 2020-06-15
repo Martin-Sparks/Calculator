@@ -36,6 +36,10 @@ public class Calculator {
         return this.val1 * this.val2;
     }
 
-
+    public double divide(){
+        double new_val1 = this.val1;
+        double new_val2 = this.val2;
+        return new_val1 / new_val2;
+    }
 
 }
