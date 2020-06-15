@@ -7,11 +7,23 @@ public class CalculatorTest {
 
     @Before
     public void before(){
-        calc = new Calculator();
+        calc = new Calculator(10, 5);
     }
 
     @Test
-    public void hasName(){
-        assertEquals();
+    public void hasAdd(){
+        assertEquals(15,calc.add());
+    }
+
+    @Test
+    public void hasSubtract(){
+        assertEquals(5, calc.subtract());
+    }
+
+    @Test
+    public void hasMultiply(){
+        assertEquals(50, calc.multiply());
     }
 }
+
+

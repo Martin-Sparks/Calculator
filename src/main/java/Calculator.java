@@ -24,4 +24,18 @@ public class Calculator {
         this.val2 = val2;
     }
 
+    public int add() {
+        return this.val1 + this.val2;
+    }
+
+    public int subtract() {
+        return this.val1 - this.val2;
+    }
+
+    public int multiply() {
+        return this.val1 * this.val2;
+    }
+
+
+
 }
